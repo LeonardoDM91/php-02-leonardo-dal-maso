@@ -7,6 +7,10 @@
 //ALMENO UN NUMERO
 //ALMENO UN CARATTERE SPECIALE
 
+/*
+visualizzare in console quale regola non e’ stata rispettata
+HINT: intervenire in ogni funzione singola
+*/
 
 
 // data una password, devo controllare che abbia almeno 8 caratteri
@@ -67,7 +71,11 @@ function checkPassword ($password) {
     return $first_rule && $second_rule && $third_rule && $fourth_rule;
 }
 
-
+/* 
+Implementare un metodo che faccia reinserire la password qualora anche una delle regole
+non fosse rispettate e che, invece, lo interrompa in caso di password accettata
+HINT: usare il do while
+*/
 
 
 do {
